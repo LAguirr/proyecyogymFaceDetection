@@ -1,0 +1,40 @@
+/* General Styles */
+
+QWidget {
+    background-image:url();
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 10px;
+}
+
+/* Button Styles */
+QPushButton {
+    background-color: #000000;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: black;
+    font-weight: bold;
+
+}
+
+Login {
+    background-color:  qlineargradient(x1: 0, x2: 1, stop: 0 white, stop: 1 black);
+    padding: 40%; 
+    margin: 200px; 
+}
+
+
+/* Table Styles */
+QTableWidget::item {
+    
+    selection-background-color: black;
+}
+
+AgregarUsuario  {
+    max-width: 500px;
+    
+}
